@@ -53,7 +53,7 @@ class _TaskListState extends State<TaskList> {
                           deleteData(tasks[index].id);
                         },
                         background: Container(
-                          child: Icon(Icons.delete),
+                          child: const Icon(Icons.delete),
                           color: Colors.red,
                         ),
                         child: ListTile(
@@ -71,7 +71,7 @@ class _TaskListState extends State<TaskList> {
                           leading: Container(
                             width: 70,
                             height: 70,
-                            margin: EdgeInsets.all(5),
+                            margin: const EdgeInsets.all(5),
                             decoration: BoxDecoration(
                               shape: BoxShape.circle,
                               image: DecorationImage(
